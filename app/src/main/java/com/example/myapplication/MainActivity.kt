@@ -27,6 +27,9 @@ class MainActivity : AppCompatActivity() {
                 return datas.count()
             }
 
+            fun test(){
+
+            }
             override fun onBindViewHolder(holder: ViewHolder, position: Int) {
                 (holder.itemView as TextView).text = datas[position]
             }
