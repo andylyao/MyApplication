@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         add.setOnClickListener {
             datas.add("this is position = " + datas.size)
             (recycler.adapter as Adapter<ViewHolder>).notifyDataSetChanged()
+
         }
     }
 
